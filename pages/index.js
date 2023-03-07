@@ -1,9 +1,8 @@
-import FormAntd from "../components/FormAntd";
-import Mapantd from '../components/Map/index'
+import FormDisabledDemo from '../components/test'
 const App = () => {
   return(
     <div>
-      <FormAntd />
+      <FormDisabledDemo />
     </div>
   )
 };
