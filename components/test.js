@@ -34,13 +34,14 @@ const FormDisabledDemo= () => {
     globalInfo.country = values.country
     globalInfo.LatLng = position
     setCurrent(2)
+    console.log(values);
     console.log(position);
   }
 
   const FormLevel = [
-    <FormAntd onFinishLoginForm={onFinishLoginForm}/>,
-    <Mapantd position={position} setPosition={setPosition} onFinishMap={onFinishMap}/>,
-    <Finish/>,
+    <FormAntd key={1} onFinishLoginForm={onFinishLoginForm}/>,
+    <Mapantd key={2} position={position} setPosition={setPosition} onFinishMap={onFinishMap}/>,
+    <Finish key={3}/>,
   ]
   
   return (

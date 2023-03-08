@@ -61,7 +61,7 @@ function Mapantd({onFinishMap, position, setPosition}) {
             />
           <LocationMarker/>
         </MapContainer>
-        <Button type='primary' htmlType='submit' onClick={onFinishMap}>Continue</Button>
+        <Button type='primary' htmlType='submit'>Continue</Button>
       </Form.Item>
       
     </Form>
